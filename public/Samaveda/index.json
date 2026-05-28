@@ -1,0 +1,146 @@
+{
+  "id": 2514530077156,
+  "title": "The Samaveda Books",
+  "describe": "The Samaveda, or Veda of Holy Songs, third in the usual order of enumeration of the three Vedas, ranks next in sanctity and liturgical importance to the Rgveda or Veda of Recited praise.",
+  "api": "data/samaveda/index.json",
+  "orig": "https://sacred-texts.com/hin/sv.htm",
+  "data": [
+    {
+      "id": 5475862947998,
+      "key": "01",
+      "title": "FIRST PART BOOK I",
+      "api": "data/samaveda/books/01.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272657,
+      "hash": "md5-owCtZCOanb32Rzi+axHZMA=="
+    },
+    {
+      "id": 4550708923031,
+      "key": "02",
+      "title": "FIRST PART BOOK II",
+      "api": "data/samaveda/books/02.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272660,
+      "hash": "md5-VPCrwkKJmifnEwicn5SLog=="
+    },
+    {
+      "id": 1401316237621,
+      "key": "03",
+      "title": "FIRST PART BOOK III",
+      "api": "data/samaveda/books/03.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272663,
+      "hash": "md5-ExMezIJcOwYvO7mQgTQrJA=="
+    },
+    {
+      "id": 5110875944741,
+      "key": "04",
+      "title": "FIRST PART BOOK IV",
+      "api": "data/samaveda/books/04.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272665,
+      "hash": "md5-ECMTnYTIZm8h38ZRevy32g=="
+    },
+    {
+      "id": 5633508371688,
+      "key": "05",
+      "title": "FIRST PART BOOK V",
+      "api": "data/samaveda/books/05.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272667,
+      "hash": "md5-Xb9BISAQGFnq+nw06irjaA=="
+    },
+    {
+      "id": 5417218515778,
+      "key": "06",
+      "title": "FIRST PART BOOK VI",
+      "api": "data/samaveda/books/06.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272669,
+      "hash": "md5-YbRU1jk168bQOajSeKnL4A=="
+    },
+    {
+      "id": 5967150591774,
+      "key": "07",
+      "title": "PART SECOND BOOK I",
+      "api": "data/samaveda/books/07.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272672,
+      "hash": "md5-Te35gMaLsEsa2PSRbfxKdw=="
+    },
+    {
+      "id": 5069574048399,
+      "key": "08",
+      "title": "PART SECOND BOOK II",
+      "api": "data/samaveda/books/08.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272678,
+      "hash": "md5-8BOVamovAWphKiLJPXtDHg=="
+    },
+    {
+      "id": 6097426715053,
+      "key": "09",
+      "title": "PART SECOND BOOK III",
+      "api": "data/samaveda/books/09.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272683,
+      "hash": "md5-Pjc42d5C0HZgkuTJHDgf6w=="
+    },
+    {
+      "id": 4225096410865,
+      "key": 10,
+      "title": "PART SECOND BOOK IV",
+      "api": "data/samaveda/books/10.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272689,
+      "hash": "md5-wxZOF2e9hLF6hMlr8SlKBA=="
+    },
+    {
+      "id": 3690617807069,
+      "key": 11,
+      "title": "PART SECOND BOOK V",
+      "api": "data/samaveda/books/11.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272694,
+      "hash": "md5-OHaDIVwVQt4cJDGw3maong=="
+    },
+    {
+      "id": 1362609527932,
+      "key": 12,
+      "title": "PART SECOND BOOK VI",
+      "api": "data/samaveda/books/12.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272699,
+      "hash": "md5-Zba2xLtKXpXXnGADs6K5ZQ=="
+    },
+    {
+      "id": 6782284153382,
+      "key": 13,
+      "title": "PART SECOND BOOK VII",
+      "api": "data/samaveda/books/13.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272704,
+      "hash": "md5-BK1n9/OVNcIfwUKIXESfCQ=="
+    },
+    {
+      "id": 3446500474738,
+      "key": 14,
+      "title": "PART SECOND BOOK VIII",
+      "api": "data/samaveda/books/14.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272709,
+      "hash": "md5-m1GIXz5+3/hkUHMJSvpwSA=="
+    },
+    {
+      "id": 6700751961261,
+      "key": 15,
+      "title": "PART SECOND BOOK IX",
+      "api": "data/samaveda/books/15.json",
+      "orig": "https://sacred-texts.com/hin/sv.htm",
+      "created": 1747959272714,
+      "hash": "md5-JDfBxWhV4Thriy/unA/iOA=="
+    }
+  ],
+  "created": 1747959272649,
+  "hash": "md5-o5rAb2vZ0JMODqKF7yqDfw=="
+}
