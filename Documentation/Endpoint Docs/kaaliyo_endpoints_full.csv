@@ -1,0 +1,328 @@
+Phase,Phase_Description,Module_Code,Module_Friendly_Name,Module_File,Method,Endpoint_Path,Endpoint_Name_Friendly,Handler_Function
+System,System Endpoints,System,Service Health Check,main.py,GET,/astro/health,Health,health
+Phase 0,Foundation (Day 0 - May 15),Doshas,All Doshas Combined,main.py,POST,/astro/doshas,Doshas,doshas
+Phase 0,Foundation (Day 0 - May 15),Muhurtha (legacy),Auspicious Time - Legacy,main.py,POST,/astro/muhurtha,Muhurtha,muhurtha
+Phase 0,Foundation (Day 0 - May 15),Core Charting,Birth Chart,main.py,POST,/astro/chart,Chart,natal_chart
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career,Career,career
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/d10_deep_dive,D10 Deep Dive,career_d10_ep
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/karaka_analysis,Karaka Analysis,career_karaka_ep
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/natural_fields,Natural Fields,career_fields_ep
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/professional_dasha,Professional Dasha,career_dasha_ep
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/profile,Profile,career_profile_ep
+Phase 0,Foundation (Day 0 - May 15),Career (legacy),Career - Legacy Single Endpoint,main.py,POST,/astro/career/timing,Timing,career_timing_ep
+Phase 0,Foundation (Day 0 - May 15),Ashtakavarga,Cumulative Strength (Ashtakavarga),main.py,POST,/astro/ashtakavarga,Ashtakavarga,ashtakavarga
+Phase 0,Foundation (Day 0 - May 15),Divisional Charts,Divisional Charts (D-charts),main.py,POST,/astro/divisional/{div},Divisional,divisional
+Phase 0,Foundation (Day 0 - May 15),Jaimini,Karaka System (Jaimini),main.py,POST,/astro/jaimini,Jaimini,jaimini
+Phase 0,Foundation (Day 0 - May 15),Lal Kitab,Lal Kitab System,lal_kitab.py,POST,/astro/lalkitab,Lalkitab,lalkitab
+Phase 0,Foundation (Day 0 - May 15),Manglik,Mars Dosha (Manglik),main.py,POST,/astro/manglik,Manglik,manglik
+Phase 0,Foundation (Day 0 - May 15),Compatibility,Match-making (Compatibility - legacy),main.py,POST,/astro/compatibility,Compatibility,compatibility
+Phase 0,Foundation (Day 0 - May 15),Special,Misc Classical Checks,main.py,POST,/astro/special,Special,special
+Phase 0,Foundation (Day 0 - May 15),Core Charting,Planet Positions,main.py,POST,/astro/planets,Planets,planets
+Phase 0,Foundation (Day 0 - May 15),Planetary Strength,Planet Strength (Shadbala),main.py,POST,/astro/shadbala,Shadbala,shadbala
+Phase 0,Foundation (Day 0 - May 15),Sade Sati,Saturn 7.5 Years (Sade Sati),main.py,POST,/astro/sadesati,Sadesati,sadesati
+Phase 0,Foundation (Day 0 - May 15),Dasha Periods,Time Period Predictions (Dasha),main.py,POST,/astro/dasha,Dasha,dasha
+Phase 0,Foundation (Day 0 - May 15),Dasha Periods,Time Period Predictions (Dasha),main.py,POST,/astro/dasha/current,Current,dasha_current
+Phase A,Foundation Muhurta (May 15),Muhurta,Auspicious Time Picker,muhurta.py,POST,/astro/muhurta,Muhurta,muhurta_full
+Phase A,Foundation Muhurta (May 15),Muhurta,Auspicious Time Picker,muhurta.py,POST,/astro/muhurta/abhijit,Abhijit,muhurta_abhijit
+Phase A,Foundation Muhurta (May 15),Muhurta,Auspicious Time Picker,muhurta.py,POST,/astro/muhurta/choghadiya,Choghadiya,muhurta_choghadiya
+Phase A,Foundation Muhurta (May 15),Muhurta,Auspicious Time Picker,muhurta.py,POST,/astro/muhurta/hora,Hora,muhurta_hora
+Phase A,Foundation Muhurta (May 15),Muhurta,Auspicious Time Picker,muhurta.py,POST,/astro/muhurta/rahukaal,Rahukaal,muhurta_rahukaal
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra,Nakshatra,nakshatra_full
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra/all_planets,All Planets,nakshatra_all_planets
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra/compatibility,Compatibility,nakshatra_compatibility
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra/compatibility_from_birth,Compatibility From Birth,nakshatra_compatibility_from_birth
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra/janma,Janma,nakshatra_janma
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,GET,/astro/nakshatra/static/{name},Static,nakshatra_static
+Phase A,Foundation Nakshatra (May 15),Nakshatra,Birth Star (Nakshatra),nakshatra.py,POST,/astro/nakshatra/tara,Tara,nakshatra_tara
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/bagua_home,Bagua Home,fengshui_bagua_home
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/compatibility,Compatibility,fengshui_compatibility_endpoint
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/directions,Directions,fengshui_directions
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/elements,Elements,fengshui_elements
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/flying_stars,Flying Stars,fengshui_flying_stars
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/kua,Kua,fengshui_kua
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/loshu,Loshu,fengshui_loshu
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/profile,Profile,fengshui_profile
+Phase A,Phase A - Specialty (May 16 AM),Feng Shui,Chinese Astrology (Feng Shui),feng_shui.py,POST,/astro/fengshui/year_outlook,Year Outlook,fengshui_year_outlook
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/by_purpose,By Purpose,remedies_master_by_purpose
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/atharva/abhichar_nullifier,Abhichar Nullifier,esoteric_atharva_nullifier
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/atharva/by_purpose,By Purpose,esoteric_atharva_by_purpose
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/atharva/healing_hymns,Healing Hymns,esoteric_atharva_healing
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/atharva/peace_invocations,Peace Invocations,esoteric_atharva_peace
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/atharva/protection_hymns,Protection Hymns,esoteric_atharva_protection
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/hellenic/decan_ruler,Decan Ruler,esoteric_decan_ruler
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/hellenic/planetary_deities,Planetary Deities,esoteric_planetary_deities
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/hellenic/time_lord,Time Lord,esoteric_time_lord
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/kabbalistic/divine_names,Divine Names,esoteric_divine_names
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/kabbalistic/paths,Paths,esoteric_kabbalistic_paths
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/kabbalistic/sephirot_for_chart,Sephirot For Chart,esoteric_sephirot_chart
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/kabbalistic/tree_of_life,Tree Of Life,esoteric_tree_of_life
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/solomonic/goetia,Goetia,esoteric_goetia
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/solomonic/olympic_spirits,Olympic Spirits,esoteric_olympic_spirits
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/solomonic/planetary_hours,Planetary Hours,esoteric_planetary_hours
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/solomonic/planetary_squares,Planetary Squares,esoteric_planetary_squares
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/solomonic/talismans,Talismans,esoteric_talismans
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/tantric/dasha_mahavidya,Dasha Mahavidya,esoteric_dasha_mahavidya
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/tantric/devi_for_purpose,Devi For Purpose,esoteric_devi_purpose
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/tantric/kavachas,Kavachas,esoteric_kavachas
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/tantric/navadurga,Navadurga,esoteric_navadurga
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/tantric/personal_mahavidya,Personal Mahavidya,esoteric_personal_mahavidya
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/vbt/all_112,All 112,esoteric_vbt_all
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/vbt/awareness_techniques,Awareness Techniques,esoteric_vbt_awareness
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/vbt/breath_techniques,Breath Techniques,esoteric_vbt_breath
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/esoteric/vbt/devotional_practices,Devotional Practices,esoteric_vbt_devotional
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/esoteric/vbt/dharana_for_chart,Dharana For Chart,esoteric_vbt_dharana
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/for_chart,For Chart,remedies_master_for_chart
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,GET,/astro/remedies/full_catalog,Full Catalog,remedies_master_full_catalog
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/numerology/lucky_dates,Lucky Dates,remedies_numerology_lucky_dates
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/numerology/mobile,Mobile,remedies_numerology_mobile
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/numerology/name,Name,remedies_numerology_name
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/numerology/signature,Signature,remedies_numerology_signature
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/numerology/vehicle,Vehicle,remedies_numerology_vehicle
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/therapeutic/aromatherapy,Aromatherapy,remedies_therapeutic_aroma
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/therapeutic/colors,Colors,remedies_therapeutic_colors
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/therapeutic/sound,Sound,remedies_therapeutic_sound
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/donations,Donations,remedies_vedic_donations
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/fasting,Fasting,remedies_vedic_fasting
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/gemstones,Gemstones,remedies_vedic_gemstones
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/ishta_devata,Ishta Devata,remedies_vedic_ishta_devata
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/mantras,Mantras,remedies_vedic_mantras
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/rudrakshas,Rudrakshas,remedies_vedic_rudrakshas
+Phase A,Phase A - Remedies (May 16 AM),Remedies,Classical + Esoteric Remedies,remedies.py / remedies_esoteric.py,POST,/astro/remedies/vedic/yantras,Yantras,remedies_vedic_yantras
+Phase A,Foundation Numerology v2 (May 15),Numerology v2,Numerology (Advanced),numerology_v2.py,POST,/astro/numerology_v2/compatibility,Compatibility,numv2_compat
+Phase A,Foundation Numerology v2 (May 15),Numerology v2,Numerology (Advanced),numerology_v2.py,POST,/astro/numerology_v2/cycles,Cycles,numv2_cycles
+Phase A,Foundation Numerology v2 (May 15),Numerology v2,Numerology (Advanced),numerology_v2.py,POST,/astro/numerology_v2/full,Full,numv2_full
+Phase A,Foundation Numerology v2 (May 15),Numerology v2,Numerology (Advanced),numerology_v2.py,POST,/astro/numerology_v2/karmic,Karmic,numv2_karmic
+Phase A,Foundation Numerology v2 (May 15),Numerology v2,Numerology (Advanced),numerology_v2.py,POST,/astro/numerology_v2/static,Static,numv2_static
+Phase A,Foundation Numerology (May 15),Numerology v1,Numerology (Original),numerology.py,POST,/astro/numerology,Numerology,numerology_full
+Phase A,Foundation Numerology (May 15),Numerology v1,Numerology (Original),numerology.py,POST,/astro/numerology/chaldean,Chaldean,numerology_chaldean
+Phase A,Foundation Numerology (May 15),Numerology v1,Numerology (Original),numerology.py,POST,/astro/numerology/loshu,Loshu,numerology_loshu
+Phase A,Foundation Numerology (May 15),Numerology v1,Numerology (Original),numerology.py,POST,/astro/numerology/pythagorean,Pythagorean,numerology_pythagorean
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas,Yogas,yogas
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/active,Active,yogasv2_active
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,GET,/astro/yogas/catalog,Catalog,yogasv2_catalog
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/detect,Detect,yogasv2_detect
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/negative,Negative,yogasv2_negative
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/positive,Positive,yogasv2_positive
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,GET,/astro/yogas/single/{yoga_id},Single,yogasv2_single
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/timeline/10year,10year,yogas_timeline_10year
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/timeline/15year,15year,yogas_timeline_15year
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/timeline/5year,5year,yogas_timeline_5year
+Phase A,Foundation Yogas (May 15),Yogas,Special Combinations (Yogas),yogas.py,POST,/astro/yogas/timeline/annual,Annual,yogas_timeline_annual
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/auspicious_construction,Auspicious Construction,vastu_construction
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/business_vastu,Business Vastu,vastu_business_endpoint
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/doshas,Doshas,vastu_doshas_endpoint
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,GET,/astro/vastu/marma_points,Marma Points,vastu_marma_endpoint
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/personal_directions,Personal Directions,vastu_personal_dirs
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/plot_analysis,Plot Analysis,vastu_plot
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/profile,Profile,vastu_profile
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/remedies,Remedies,vastu_remedies_endpoint
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/room_placement,Room Placement,vastu_rooms
+Phase A,Phase A - Specialty (May 16 AM),Vastu,Vedic Architecture (Vastu),vastu.py,POST,/astro/vastu/yantra_directions,Yantra Directions,vastu_yantra
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/avoidance_windows,Avoidance Windows,health_avoidance_windows_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/ayurvedic_diet,Ayurvedic Diet,health_diet_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/body_parts,Body Parts,health_body_parts_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/chakra_balancing,Chakra Balancing,health_chakra_balancing_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/chakras,Chakras,health_chakras_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/healing_windows,Healing Windows,health_healing_windows_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/health_remedies,Health Remedies,health_remedies_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/illness_predisposition,Illness Predisposition,health_illness_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/longevity_factors,Longevity Factors,health_longevity_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/mental_health,Mental Health,health_mental_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/prakriti,Prakriti,health_prakriti_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/profile,Profile,health_profile
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/tridosha,Tridosha,health_tridosha_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/vikriti_current,Vikriti Current,health_vikriti_ep
+Phase B1,Phase B - Life Areas (May 16),Health,Health & Wellness,health.py,POST,/astro/health/yoga_pranayama,Yoga Pranayama,health_yoga_pranayama_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/dhana_yogas,Dhana Yogas,wealth_dhana_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/income_sources,Income Sources,wealth_sources_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/income_windows,Income Windows,wealth_windows_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/profile,Profile,wealth_profile_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/risk_areas,Risk Areas,wealth_risk_ep
+Phase B2,Phase B - Life Areas (May 16),Wealth,Wealth Analysis,career_wealth.py,POST,/astro/wealth/wealth_remedies,Wealth Remedies,wealth_remedies_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/aroodha_lagna,Aroodha Lagna,prashna_aroodha_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/kp_horary,Kp Horary,prashna_kp_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/lagna_analysis,Lagna Analysis,prashna_lagna_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/moon_analysis,Moon Analysis,prashna_moon_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/profile,Profile,prashna_profile_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/significator,Significator,prashna_significator_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/specific_query,Specific Query,prashna_specific_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/swara,Swara,prashna_swara_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/timing,Timing,prashna_timing_ep
+Phase B3,Phase B - Life Areas (May 16),Prashna,Horary Question (Prashna),prashna.py,POST,/astro/prashna/yes_no,Yes No,prashna_yes_no_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit,Transit,transit
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/applying_aspects_to_natal,Applying Aspects To Natal,txa_applying_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/ashtaka_varga_transit,Ashtaka Varga Transit,transit_ashtaka_varga_transit_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/current_positions,Current Positions,transit_current_positions_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/eclipses_impact,Eclipses Impact,transit_eclipses_impact_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/gochara_phala,Gochara Phala,transit_gochara_phala_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/jupiter_transit,Jupiter Transit,transit_jupiter_transit_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/major_alerts_12months,Major Alerts 12months,transit_major_alerts_12months_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/personal_houses,Personal Houses,transit_personal_houses_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/profile,Profile,transit_profile_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/rahu_ketu_transit,Rahu Ketu Transit,transit_rahu_ketu_transit_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/retrograde_periods,Retrograde Periods,transit_retrograde_periods_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/sade_sati,Sade Sati,transit_sade_sati_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/saturn_transit,Saturn Transit,transit_saturn_transit_ep
+Phase C0,Phase C - Predictive (May 16),Transit,Current Planetary Transit,transit.py,POST,/astro/transit/upcoming_exact_aspects,Upcoming Exact Aspects,txa_upcoming_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/ashtakoot,Ashtakoot,compat_ashtakoot_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/bhakoot_dosha,Bhakoot Dosha,compat_bhakoot_dosha_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/d9_navamsha_compat,D9 Navamsha Compat,compat_d9_navamsha_compat_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/dasha_compatibility,Dasha Compatibility,compat_dasha_compatibility_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/longevity_match,Longevity Match,compat_longevity_match_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/manglik,Manglik,compat_manglik_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/nadi_dosha,Nadi Dosha,compat_nadi_dosha_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/profile,Profile,compat_profile_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/seventh_house_synthesis,Seventh House Synthesis,compat_seventh_house_synthesis_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/synastry_aspects,Synastry Aspects,compat_synastry_aspects_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/timing_for_marriage,Timing For Marriage,compat_timing_for_marriage_ep
+Phase C1,Phase C - Predictive (May 16),Compatibility v2,Match-making (Modern Compatibility),compatibility.py,POST,/astro/compat/venus_jupiter_synthesis,Venus Jupiter Synthesis,compat_venus_jupiter_synthesis_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/cast_chart,Cast Chart,varsha_cast_chart_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/dasha_for_year,Dasha For Year,varsha_dasha_for_year_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/event_timing,Event Timing,varsha_event_timing_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/monthly_predictions,Monthly Predictions,varsha_monthly_predictions_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/muntha,Muntha,varsha_muntha_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/profile,Profile,varsha_profile_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/sahams,Sahams,varsha_sahams_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/tajik_aspects,Tajik Aspects,varsha_tajik_aspects_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/year_lord,Year Lord,varsha_year_lord_ep
+Phase C2,Phase C - Predictive (May 16),Varshaphala,Annual Chart (Varshaphala),varshaphala.py,POST,/astro/varshaphala/year_remedies,Year Remedies,varsha_year_remedies_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/business_muhurta,Business Muhurta,mhpro_business_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/check_moment,Check Moment,mhpro_check_moment_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/find_window,Find Window,mhpro_find_window_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/marriage_muhurta,Marriage Muhurta,mhpro_marriage_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/medical_muhurta,Medical Muhurta,mhpro_medical_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/profile,Profile,mhpro_profile_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/property_muhurta,Property Muhurta,mhpro_property_ep
+Phase C3,Phase C - Predictive (May 16),Muhurta Pro,Auspicious Timing (Advanced),muhurta_pro.py,POST,/astro/muhurta_pro/travel_muhurta,Travel Muhurta,mhpro_travel_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang,Panchang,panchang
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/full,Full,panchang_full_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/karana,Karana,panchang_karana_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/nakshatra,Nakshatra,panchang_nakshatra_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/rahu_kalam,Rahu Kalam,panchang_rahu_kalam_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/tithi,Tithi,panchang_tithi_ep
+Phase C4,Phase C - Predictive (May 16),Panchang,Daily Almanac (Panchang),panchang.py,POST,/astro/panchang/yoga,Yoga,panchang_yoga_ep
+Phase C5,Phase C - Life Areas (May 16),Children,Children Analysis,children_education.py,POST,/astro/children/5th_house_analysis,5th House Analysis,c5_5th_house_ep
+Phase C5,Phase C - Life Areas (May 16),Children,Children Analysis,children_education.py,POST,/astro/children/conception_timing,Conception Timing,c5_conception_timing_ep
+Phase C5,Phase C - Life Areas (May 16),Children,Children Analysis,children_education.py,POST,/astro/children/d7_saptamsha,D7 Saptamsha,c5_d7_saptamsha_ep
+Phase C5,Phase C - Life Areas (May 16),Children,Children Analysis,children_education.py,POST,/astro/children/profile,Profile,c5_children_profile_ep
+Phase C5,Phase C - Life Areas (May 16),Children,Children Analysis,children_education.py,POST,/astro/children/putra_dosha,Putra Dosha,c5_putra_dosha_ep
+Phase C5,Phase C - Life Areas (May 16),Education,Education Analysis,children_education.py,POST,/astro/education/4th_5th_synthesis,4th 5th Synthesis,c5_education_4th_5th_ep
+Phase C5,Phase C - Life Areas (May 16),Education,Education Analysis,children_education.py,POST,/astro/education/foreign_study_yoga,Foreign Study Yoga,c5_education_foreign_ep
+Phase C5,Phase C - Life Areas (May 16),Education,Education Analysis,children_education.py,POST,/astro/education/profile,Profile,c5_education_profile_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/arudha_padas,Arudha Padas,karmic_arudha_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/atmakaraka_journey,Atmakaraka Journey,karmic_ak_journey_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/kaal_sarpa,Kaal Sarpa,karmic_kaal_sarpa_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/karakamsha,Karakamsha,karmic_karakamsha_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/ketu_past_life,Ketu Past Life,karmic_ketu_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/profile,Profile,karmic_profile_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/rahu_forward_karma,Rahu Forward Karma,karmic_rahu_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/twelfth_house_moksha,Twelfth House Moksha,karmic_moksha_ep
+Phase D1,Phase D - Specialty (May 17),Karmic,Karmic Analysis (Past Life),karmic.py,POST,/astro/karmic/upapada_karma,Upapada Karma,karmic_upapada_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/card_meaning,Card Meaning,tarot_card_meaning_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/celtic_cross,Celtic Cross,tarot_celtic_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/daily_card,Daily Card,tarot_daily_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/decision,Decision,tarot_decision_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/profile,Profile,tarot_profile_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/question_focused,Question Focused,tarot_question_focused_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/shuffle,Shuffle,tarot_shuffle_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/suit_overview,Suit Overview,tarot_suit_overview_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/three_card,Three Card,tarot_three_card_ep
+Phase D2,Phase D - Specialty (May 17),Tarot,Vedic Tarot Cards,tarot.py,POST,/astro/tarot/year_ahead,Year Ahead,tarot_year_ahead_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/cast_question,Cast Question,iching_cast_question_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/changing_lines_analysis,Changing Lines Analysis,iching_changing_lines_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/daily_hexagram,Daily Hexagram,iching_daily_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/decision_hexagram,Decision Hexagram,iching_decision_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/hexagram_lookup,Hexagram Lookup,iching_hex_lookup_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/profile,Profile,iching_profile_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/question_focused,Question Focused,iching_question_focused_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/shuffle_cast,Shuffle Cast,iching_shuffle_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/trigram_lookup,Trigram Lookup,iching_trigram_lookup_ep
+Phase D3,Phase D - Specialty (May 17),I-Ching,I-Ching Divination,iching.py,POST,/astro/iching/year_ahead_hexagrams,Year Ahead Hexagrams,iching_year_ahead_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp,Kp,kp_chart
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/cuspal_sub_lords,Cuspal Sub Lords,kp_cuspal_sl_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/house_significators,House Significators,kp_house_sig_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/lagna_sub_lord,Lagna Sub Lord,kp_lagna_sl_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/moment_lookup,Moment Lookup,kp_moment_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/planet_sub_lords,Planet Sub Lords,kp_planet_sub_lords_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/profile,Profile,kp_profile_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/query_horoscope,Query Horoscope,kp_query_horoscope_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/ruling_planets,Ruling Planets,kp_ruling_planets_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/significators,Significators,kp_significators_ep
+Phase D4,Phase D - Specialty (May 17),KP Astrology,KP Astrology (Krishnamurti Paddhati),kp_pro.py,POST,/astro/kp/sub_lord_for_longitude,Sub Lord For Longitude,kp_sub_lord_lon_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/ak_nakshatra_signature,Ak Nakshatra Signature,nadi_ak_signature_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/bhrigu_aspects,Bhrigu Aspects,nadi_bhrigu_aspects_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/moon_pada_analysis,Moon Pada Analysis,nadi_moon_pada_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/nakshatra_yogas,Nakshatra Yogas,nadi_yogas_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/pada_attributes,Pada Attributes,nadi_pada_attributes_ep
+Phase D5,Phase D - Specialty (May 17),Nadi,Nadi Astrology,nadi.py,POST,/astro/nadi/profile,Profile,nadi_profile_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/local_space,Local Space,acg_local_space_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/location_compare,Location Compare,acg_location_compare_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/optimal_locations,Optimal Locations,acg_optimal_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/planetary_lines,Planetary Lines,acg_planetary_lines_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/profile,Profile,acg_profile_ep
+Phase D6,Phase D - Specialty (May 17),Astrocartography,Location-Based Astrology,astrocartography.py,POST,/astro/astrocartography/relocate_chart,Relocate Chart,acg_relocate_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/cast_chart,Cast Chart,ramal_cast_chart_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/cast_from_throws,Cast From Throws,ramal_cast_from_throws_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/check_captivity,Check Captivity,ramal_check_captivity_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/check_theft,Check Theft,ramal_check_theft_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/dot_count,Dot Count,ramal_dot_count_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/figure_from_throw,Figure From Throw,ramal_figure_from_throw_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/figure_lookup,Figure Lookup,ramal_figure_lookup_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/figures_catalog,Figures Catalog,ramal_figures_catalog_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/hope_formula,Hope Formula,ramal_hope_formula_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/house_domains,House Domains,ramal_house_domains_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/profile,Profile,ramal_profile_ep
+Phase E1,Phase E - Divination (May 17),Ramal,Ramal (Geomancy) Divination,ramal.py,POST,/astro/ramal/question_reading,Question Reading,ramal_question_reading_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/board_catalog,Board Catalog,mp_board_catalog_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/chakra_analysis,Chakra Analysis,mp_chakra_analysis_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/chakra_catalog,Chakra Catalog,mp_chakra_catalog_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/chart_data,Chart Data,mp_chart_data_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/cumulative_pattern,Cumulative Pattern,mp_cumulative_pattern_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/journey_narrative,Journey Narrative,mp_journey_narrative_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/past_life_weight,Past Life Weight,mp_past_life_weight_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/profile,Profile,mp_profile_ep
+Phase E2,Phase E - Divination (May 17),Mokshapatam,Spiritual Game (Mokshapatam),mokshapatam.py,POST,/astro/mokshapatam/validate_journey,Validate Journey,mp_validate_journey_ep
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/business_partner,Business Partner,relationship_business_partner
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/colleague,Colleague,relationship_colleague
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/compatibility_matrix,Compatibility Matrix,relationship_compatibility_matrix
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/family,Family,relationship_family
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/friendship,Friendship,relationship_friendship
+Phase F1,Phase F - Features (May 17-18),Relationships,Relationship Analysis (Advanced),relationships.py / f1b_extension.py,POST,/astro/relationship/mentor,Mentor,relationship_mentor
+Phase F2A,Phase F - Features (May 17-18),Eclipse,Eclipse Analysis,eclipse.py,POST,/astro/eclipse/natal_eclipses,Natal Eclipses,eclipse_natal_eclipses
+Phase F2A,Phase F - Features (May 17-18),Eclipse,Eclipse Analysis,eclipse.py,POST,/astro/eclipse/sade_sati_extension,Sade Sati Extension,eclipse_sade_sati_extension
+Phase F2A,Phase F - Features (May 17-18),Eclipse,Eclipse Analysis,eclipse.py,POST,/astro/eclipse/upcoming,Upcoming,eclipse_upcoming
+Phase F2B,Phase F - Features (May 17-18),Pitra Dosha,Ancestral Karma (Pitra Dosha),pitra_dosha.py,POST,/astro/pitra_dosha/intensity,Intensity,pitra_dosha_intensity
+Phase F2B,Phase F - Features (May 17-18),Pitra Dosha,Ancestral Karma (Pitra Dosha),pitra_dosha.py,POST,/astro/pitra_dosha/profile,Profile,pitra_dosha_profile
+Phase F2B,Phase F - Features (May 17-18),Pitra Dosha,Ancestral Karma (Pitra Dosha),pitra_dosha.py,POST,/astro/pitra_dosha/remedies_timing,Remedies Timing,pitra_dosha_remedies_timing
+Phase F3,Phase F - Features (May 17-18),Strength,Planetary Strength (Comprehensive),strength.py,POST,/astro/strength/comprehensive,Comprehensive,strength_comprehensive
+Phase F3,Phase F - Features (May 17-18),Strength,Planetary Strength (Comprehensive),strength.py,POST,/astro/strength/planetary_summary,Planetary Summary,strength_planetary_summary
+Phase F3,Phase F - Features (May 17-18),Strength,Planetary Strength (Comprehensive),strength.py,POST,/astro/strength/vimshopaka_bala,Vimshopaka Bala,strength_vimshopaka_bala
+Phase F4,Phase F - Features (May 17-18),Mundane,World Events / Country Astrology,mundane.py,POST,/astro/mundane/company_chart,Company Chart,mundane_company_chart
+Phase F4,Phase F - Features (May 17-18),Mundane,World Events / Country Astrology,mundane.py,POST,/astro/mundane/country_outlook,Country Outlook,mundane_country_outlook
+Phase F4,Phase F - Features (May 17-18),Mundane,World Events / Country Astrology,mundane.py,POST,/astro/mundane/election_prediction,Election Prediction,mundane_election_prediction
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/bala_arishta,Bala Arishta,pregnancy_bala_arishta
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/conception_muhurta,Conception Muhurta,pregnancy_conception_muhurta
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/garbha_shanti_remedies,Garbha Shanti Remedies,pregnancy_garbha_shanti_remedies
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/newborn_naming_window,Newborn Naming Window,pregnancy_newborn_naming_window
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/prenatal_remedies,Prenatal Remedies,pregnancy_prenatal_remedies
+Phase F5,Phase F - Features (May 17-18),Pregnancy,Pregnancy & Conception,pregnancy.py,POST,/astro/pregnancy/santana_yogas,Santana Yogas,pregnancy_santana_yogas
+Phase F6,Phase F - Features (May 17-18),Pet Astrology,Pet/Animal Astrology,pet_astro.py / pet_muhurta.py,POST,/astro/pet/auspicious_acquisition_window,Auspicious Acquisition Window,pet_acquisition_window_scan
+Phase F6,Phase F - Features (May 17-18),Pet Astrology,Pet/Animal Astrology,pet_astro.py / pet_muhurta.py,POST,/astro/pet/check_acquisition_day,Check Acquisition Day,pet_check_acquisition_day
+Phase F6,Phase F - Features (May 17-18),Pet Astrology,Pet/Animal Astrology,pet_astro.py / pet_muhurta.py,POST,/astro/pet/compatibility,Compatibility,pet_compatibility
+Phase F6,Phase F - Features (May 17-18),Pet Astrology,Pet/Animal Astrology,pet_astro.py / pet_muhurta.py,POST,/astro/pet/naming,Naming,pet_naming
+Phase F6,Phase F - Features (May 17-18),Pet Astrology,Pet/Animal Astrology,pet_astro.py / pet_muhurta.py,POST,/astro/pet/personality,Personality,pet_personality
+Phase F7,Phase F - Features (May 17-18),Family Karma,Family Karma & Lineage,family_karma.py,POST,/astro/karma/ancestral_strengths,Ancestral Strengths,karma_ancestral_strengths
+Phase F7,Phase F - Features (May 17-18),Family Karma,Family Karma & Lineage,family_karma.py,POST,/astro/karma/dasha_lineage,Dasha Lineage,karma_dasha_lineage
+Phase F7,Phase F - Features (May 17-18),Family Karma,Family Karma & Lineage,family_karma.py,POST,/astro/karma/family_patterns,Family Patterns,karma_family_patterns
+Phase F7,Phase F - Features (May 17-18),Family Karma,Family Karma & Lineage,family_karma.py,POST,/astro/karma/karaka_inheritance,Karaka Inheritance,karma_karaka_inheritance
+Phase F7,Phase F - Features (May 17-18),Family Karma,Family Karma & Lineage,family_karma.py,POST,/astro/karma/lineage_yogas,Lineage Yogas,karma_lineage_yogas
+Phase F9,Phase F - Features (May 17-18),Birthday Quick,Birthday/Solar Return Quick Read,birthday_quick.py,POST,/astro/birthday/headline,Headline,birthday_headline
+Phase F9,Phase F - Features (May 17-18),Birthday Quick,Birthday/Solar Return Quick Read,birthday_quick.py,POST,/astro/birthday/quick,Quick,birthday_quick
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,POST,/astro/rectification/event_based,Event Based,f10p2_event_based_rectification
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,POST,/astro/rectification/kp_based,Kp Based,f10p1_kp_rectification
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,POST,/astro/rectification/master,Master,f10p3_master_rectification
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,POST,/astro/rectification/nadi_amshas,Nadi Amshas,f10p3_nadi_amsha_rectification
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,GET,/astro/rectification/nadi_amshas/info,Info,f10p3_nadi_amshas_info
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,GET,/astro/rectification/supported_events,Supported Events,f10p1_supported_events
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,GET,/astro/rectification/supported_tattvas,Supported Tattvas,f10p2_supported_tattvas
+Phase F10,Phase F10 - Rectification (May 18),Rectification,Birth Time Rectification,rectification.py + p2 + p3,POST,/astro/rectification/tattva,Tattva,f10p2_tattva_rectification

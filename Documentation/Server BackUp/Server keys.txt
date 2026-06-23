@@ -1,0 +1,23 @@
+root@trading-agent:/opt/astro# cat /root/.ssh/id_ed25519
+
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDcoppGKFrhIfzSzyD8VtF2YeN01nh9QVApkCKlhp+r3wAAAJjncsJQ53LC
+UAAAAAtzc2gtZWQyNTUxOQAAACDcoppGKFrhIfzSzyD8VtF2YeN01nh9QVApkCKlhp+r3w
+AAAEAIiw7OiSKrgoIaS26EK56O8UG2O0IH7wiS55oHSc3h39yimkYoWuEh/NLPIPxW0XZh
+43TWeH1BUCmQIqWGn6vfAAAAEVtlbWFpbCBwcm90ZWN0ZWRdAQIDBA==
+-----END OPENSSH PRIVATE KEY-----
+
+
+root@trading-agent:/opt/astro# cat /root/.ssh/id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINyimkYoWuEh/NLPIPxW0XZh43TWeH1BUCmQIqWGn6vf [email protected]
+
+root@trading-agent:/opt/astro# cat /root/.config/rclone/rclone.conf
+
+[gdrive]
+type = drive
+scope = drive
+token = {"access_token":"ya29.a0AQvPyIPfMJ_acZhEvjJs3iAzQoSD9RYVtR0xkqin1y2092alpgrLDP8Y2oRA0B36iNzbvyXR_bOxv1L8tVRda9tWrweFoatsghxDjhAN4AH2PTzEy2enROnb51HMOP2Tvtj2eqL8SPqmJkISVCF2-3WoZqlSHkVEY2ExUPpzUGLTBbmd2Np-JoT9aJX2393hLW1CUO0aCgYKAS8SARQSFQHGX2MiMequVXZmf9e91mcJ1QG2UQ0206","token_type":"Bearer","refresh_token":"1//0g-wSBPp5jjluCgYIARAAGBASNwF-L9IrEqYgFmpD8jSYkFJa9194uAoIX8zF5F_XHmkSW49Y2PVdFfwwoNGDUIzUszIrf7ypEzc","expiry":"2026-05-19T05:23:32.607029478Z","expires_in":3599}
+
+root@trading-agent:/opt/astro#
